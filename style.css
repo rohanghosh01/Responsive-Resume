@@ -7,3 +7,20 @@
 }
 
 /* Write CSS code below */
+.main-content {
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+.left-section{
+    grid-column:span 1;
+    background-color:black
+
+
+}
+.right-section{
+    grid-column: span 1/span 2;
+    background-color: white;
+}
