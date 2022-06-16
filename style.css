@@ -14,6 +14,7 @@
     max-width: 90%;
     margin: 20px auto;
     grid-template-columns: 300px 700px;
+    
 }
 .left-section{
     grid-column:span 1;
@@ -37,11 +38,11 @@ body{
 }
 
 .profile-image{
+    display: block;
     width: 60%;
     max-width: 100%;
     height: auto;
-    display:block;
-    margin: 0 auto;
+    margin:auto;
     border: 5px white solid;
     border-radius: 30%;
 }
@@ -138,11 +139,9 @@ body{
     height: 4px;
     border-radius: 4px;
 }
+
 .right-main-content{
-    margin-left: 50px;
-
-    
-
+    padding: 2rem 3rem;
 }
 .right-title{
     text-transform: uppercase;
@@ -151,17 +150,17 @@ body{
     padding: 0.5rem;
     letter-spacing: 1px;
     margin-left: auto;
+    margin-top: 10px;
 }
 .para{
-    padding-top: 10px;
-    padding-bottom: 15px;
+   margin-top: 10px;
+   margin-bottom: 12px;
 }
 .right-title-description{
     font-size: 14px;
   
     font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 2px;
+    margin-top: 10px;
     text-transform: uppercase;
 }
 
@@ -169,14 +168,23 @@ body{
    
     text-align: left;
     font-weight: bold;
-    padding-top: 4px;
+  margin-bottom:auto ;
     opacity: .8;
 }
+hr{
+
+    border: 0.3px solid rgb(0, 0, 0);
+}
+.hr{
+    margin-top: 12px;
+
+
+}
 .experience{
-    padding-top: 15px;
+    /* margin-top: 19px; */
 }
 .project{
-    padding-top: 15px;
+    /* margin-top: 19px; */
 
 }
 
