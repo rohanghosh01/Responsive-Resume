@@ -183,6 +183,7 @@ body{
 @media screen and (max-width: 673px) {
     .main-content {
         grid-template-columns: repeat(1,1fr);
+        text-align: left;
 
 
 
@@ -196,6 +197,7 @@ body{
         width: 40%;
        
     }
+  
     
 
 }
